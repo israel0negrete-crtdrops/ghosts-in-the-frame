@@ -1,0 +1,99 @@
+barras-10 0 error 110.1 104.0 s
+barras-10 1 error 166.7 104.3 s
+barras-10 2 error 188.9 103.9 s
+barras-10 3 error 192.0 103.9 s
+barras-25 0 error 110.1 103.9 s
+barras-25 1 error 166.7 162.7 s
+barras-25 2 error 188.9 237.2 s
+barras-25 3 error 192.0 229.9 s
+barras-45 0 error 110.1 151.4 s
+barras-45 1 error 166.7 104.3 s
+barras-45 2 error 188.9 104.1 s
+barras-45 3 error 192.0 104.1 s
+barras-70 0 error 110.1 104.0 s
+barras-70 1 error 166.7 104.0 s
+barras-70 2 error 188.9 104.1 s
+barras-70 3 error 192.0 104.1 s
+combinado-1 0 error 110.1 104.2 s
+combinado-1 1 error 166.7 104.3 s
+combinado-1 2 error 188.9 104.3 s
+combinado-1 3 error 192.0 104.2 s
+eco-0.2 0 error 110.1 104.4 s
+eco-0.2 1 error 166.7 104.5 s
+eco-0.2 2 error 188.9 104.5 s
+eco-0.2 3 error 192.0 104.4 s
+eco-0.35 0 error 110.1 104.3 s
+eco-0.35 1 error 166.7 104.4 s
+eco-0.35 2 error 188.9 104.3 s
+eco-0.35 3 error 192.0 104.5 s
+eco-0.5 0 error 110.1 3.3 s
+eco-0.5 1 error 166.7 104.5 s
+eco-0.5 2 error 188.9 104.4 s
+eco-0.5 3 error 192.0 104.3 s
+eco-0.7 0 error 110.1 104.4 s
+eco-0.7 1 error 166.7 104.3 s
+eco-0.7 2 error 188.9 104.5 s
+eco-0.7 3 error 192.0 104.5 s
+gaussiano-10 0 error 110.1 105.0 s
+gaussiano-10 1 error 166.7 105.5 s
+gaussiano-10 2 error 188.9 104.9 s
+gaussiano-10 3 error 192.0 105.1 s
+gaussiano-20 0 error 110.1 104.6 s
+gaussiano-20 1 error 166.7 104.5 s
+gaussiano-20 2 error 188.9 104.4 s
+gaussiano-20 3 error 192.0 104.5 s
+gaussiano-35 0 error 110.1 104.2 s
+gaussiano-35 1 error 166.7 104.3 s
+gaussiano-35 2 error 188.9 104.3 s
+gaussiano-35 3 error 192.0 104.2 s
+gaussiano-50 0 error 110.1 104.1 s
+gaussiano-50 1 error 166.7 104.3 s
+gaussiano-50 2 error 188.9 104.2 s
+gaussiano-50 3 error 192.0 105.0 s
+impulsivo-0.01 0 error 110.1 105.3 s
+impulsivo-0.01 1 error 166.7 105.0 s
+impulsivo-0.01 2 error 188.9 105.2 s
+impulsivo-0.01 3 error 192.0 104.9 s
+impulsivo-0.03 0 error 110.1 104.7 s
+impulsivo-0.03 1 error 166.7 104.7 s
+impulsivo-0.03 2 error 188.9 104.7 s
+impulsivo-0.03 3 error 192.0 104.7 s
+impulsivo-0.08 0 error 110.1 104.3 s
+Traceback (most recent call last):
+  File "/home/edgelab/fantasmas/ojo2026.py", line 102, in <module>
+    for linea in ruta.read_text().splitlines():
+^^^^^^
+  File "/home/edgelab/fantasmas/ojo2026.py", line 81, in main
+    cuerpo = json.dumps({"model": modelo, "prompt": pregunta(modelo), "images": [base64.b64encode(png).decode()],
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/edgelab/fantasmas/ojo2026.py", line 55, in preguntar
+    c = pendientes.pop(0)
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 500: Internal Server Error
+impulsivo-0.08 1 error 166.7 110.3 s
+impulsivo-0.08 2 error 188.9 104.0 s
+impulsivo-0.08 3 error 192.0 104.0 s
+impulsivo-0.15 0 error 110.1 103.8 s
+impulsivo-0.15 1 error 166.7 103.9 s
+impulsivo-0.15 2 error 188.9 104.0 s
+impulsivo-0.15 3 error 192.0 103.9 s
+limpio 0 error 110.1 104.1 s
+limpio 1 error 166.7 104.0 s
+limpio 2 error 188.9 104.0 s
+limpio 3 error 192.0 104.1 s

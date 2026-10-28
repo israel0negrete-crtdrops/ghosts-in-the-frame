@@ -1,0 +1,357 @@
+{
+ "equipo": "israel-MINI-N100C",
+ "cuadros": 72,
+ "qwen_escala": [
+  1.61875,
+  1.6333333333333333
+ ],
+ "tiempo_por_cuadro": {
+  "ojo2001_mediana_cancelador_ms": 37.53,
+  "qwen_s": 146.1,
+  "gemma_s": 104.3
+ },
+ "casos": [
+  {
+   "caso": "barras-10",
+   "cuadros": 4,
+   "ojo2001_crudo": 0.1,
+   "ojo2001_mejor": 0.1,
+   "ojo2001_mejor_variante": "media",
+   "qwen_centro": 1.0,
+   "qwen_centro_n": 4,
+   "qwen_esquina": null,
+   "qwen_esquina_n": 0,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "barras-25",
+   "cuadros": 4,
+   "ojo2001_crudo": 0.1,
+   "ojo2001_mejor": 0.1,
+   "ojo2001_mejor_variante": "mediana",
+   "qwen_centro": 1.0,
+   "qwen_centro_n": 3,
+   "qwen_esquina": 2.8,
+   "qwen_esquina_n": 1,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "barras-45",
+   "cuadros": 4,
+   "ojo2001_crudo": 0.2,
+   "ojo2001_mejor": 0.2,
+   "ojo2001_mejor_variante": "mediana",
+   "qwen_centro": 2.0,
+   "qwen_centro_n": 4,
+   "qwen_esquina": null,
+   "qwen_esquina_n": 0,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "barras-70",
+   "cuadros": 4,
+   "ojo2001_crudo": 0.3,
+   "ojo2001_mejor": 0.3,
+   "ojo2001_mejor_variante": "mediana",
+   "qwen_centro": 1.4,
+   "qwen_centro_n": 1,
+   "qwen_esquina": 1.2,
+   "qwen_esquina_n": 3,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "combinado-1",
+   "cuadros": 4,
+   "ojo2001_crudo": 119.3,
+   "ojo2001_mejor": 0.1,
+   "ojo2001_mejor_variante": "mediana+cancelador",
+   "qwen_centro": 1.2,
+   "qwen_centro_n": 1,
+   "qwen_esquina": 2.3,
+   "qwen_esquina_n": 2,
+   "qwen_sin": 1,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "eco-0.2",
+   "cuadros": 4,
+   "ojo2001_crudo": 0.1,
+   "ojo2001_mejor": 0.0,
+   "ojo2001_mejor_variante": "mediana+cancelador",
+   "qwen_centro": 20.1,
+   "qwen_centro_n": 3,
+   "qwen_esquina": 2.8,
+   "qwen_esquina_n": 1,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "eco-0.35",
+   "cuadros": 4,
+   "ojo2001_crudo": 0.1,
+   "ojo2001_mejor": 0.0,
+   "ojo2001_mejor_variante": "media+cancelador",
+   "qwen_centro": 20.3,
+   "qwen_centro_n": 3,
+   "qwen_esquina": 1.2,
+   "qwen_esquina_n": 1,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "eco-0.5",
+   "cuadros": 4,
+   "ojo2001_crudo": 19.6,
+   "ojo2001_mejor": 0.0,
+   "ojo2001_mejor_variante": "mediana+cancelador",
+   "qwen_centro": 20.2,
+   "qwen_centro_n": 2,
+   "qwen_esquina": null,
+   "qwen_esquina_n": 0,
+   "qwen_sin": 2,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "eco-0.7",
+   "cuadros": 4,
+   "ojo2001_crudo": 19.9,
+   "ojo2001_mejor": 0.4,
+   "ojo2001_mejor_variante": "media+cancelador",
+   "qwen_centro": 20.6,
+   "qwen_centro_n": 3,
+   "qwen_esquina": 2.9,
+   "qwen_esquina_n": 1,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "gaussiano-10",
+   "cuadros": 4,
+   "ojo2001_crudo": 0.0,
+   "ojo2001_mejor": 0.0,
+   "ojo2001_mejor_variante": "media",
+   "qwen_centro": 0.6,
+   "qwen_centro_n": 2,
+   "qwen_esquina": 2.0,
+   "qwen_esquina_n": 2,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "gaussiano-20",
+   "cuadros": 4,
+   "ojo2001_crudo": 6.7,
+   "ojo2001_mejor": 0.1,
+   "ojo2001_mejor_variante": "media",
+   "qwen_centro": null,
+   "qwen_centro_n": 0,
+   "qwen_esquina": 2.4,
+   "qwen_esquina_n": 4,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "gaussiano-35",
+   "cuadros": 4,
+   "ojo2001_crudo": 142.8,
+   "ojo2001_mejor": 0.1,
+   "ojo2001_mejor_variante": "media",
+   "qwen_centro": null,
+   "qwen_centro_n": 0,
+   "qwen_esquina": 2.4,
+   "qwen_esquina_n": 4,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "gaussiano-50",
+   "cuadros": 4,
+   "ojo2001_crudo": 165.6,
+   "ojo2001_mejor": 0.5,
+   "ojo2001_mejor_variante": "media",
+   "qwen_centro": null,
+   "qwen_centro_n": 0,
+   "qwen_esquina": 2.4,
+   "qwen_esquina_n": 4,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "impulsivo-0.01",
+   "cuadros": 4,
+   "ojo2001_crudo": 87.3,
+   "ojo2001_mejor": 0.0,
+   "ojo2001_mejor_variante": "mediana",
+   "qwen_centro": 1.6,
+   "qwen_centro_n": 1,
+   "qwen_esquina": 2.8,
+   "qwen_esquina_n": 3,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "impulsivo-0.03",
+   "cuadros": 4,
+   "ojo2001_crudo": 130.5,
+   "ojo2001_mejor": 0.1,
+   "ojo2001_mejor_variante": "mediana",
+   "qwen_centro": 1.2,
+   "qwen_centro_n": 4,
+   "qwen_esquina": null,
+   "qwen_esquina_n": 0,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "impulsivo-0.08",
+   "cuadros": 4,
+   "ojo2001_crudo": 157.7,
+   "ojo2001_mejor": 0.4,
+   "ojo2001_mejor_variante": "mediana",
+   "qwen_centro": null,
+   "qwen_centro_n": 0,
+   "qwen_esquina": 2.6,
+   "qwen_esquina_n": 4,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "impulsivo-0.15",
+   "cuadros": 4,
+   "ojo2001_crudo": 166.4,
+   "ojo2001_mejor": 7.1,
+   "ojo2001_mejor_variante": "mediana",
+   "qwen_centro": 1.3,
+   "qwen_centro_n": 2,
+   "qwen_esquina": 2.8,
+   "qwen_esquina_n": 2,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  },
+  {
+   "caso": "limpio",
+   "cuadros": 4,
+   "ojo2001_crudo": 0.0,
+   "ojo2001_mejor": 0.0,
+   "ojo2001_mejor_variante": "mediana",
+   "qwen_centro": 1.0,
+   "qwen_centro_n": 4,
+   "qwen_esquina": null,
+   "qwen_esquina_n": 0,
+   "qwen_sin": 0,
+   "gemma": 177.8,
+   "gemma_respuestas": [
+    [
+     320.0,
+     240.0
+    ]
+   ]
+  }
+ ]
+}
